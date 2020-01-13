@@ -1,5 +1,6 @@
 menu.cpu=Processor
 menu.clock=Clock
+menu.uploader=Uploader
 
 ################################################################################
 
@@ -9,7 +10,6 @@ ATtinyX5.bootloader.unlock_bits=0xff
 ATtinyX5.bootloader.lock_bits=0xff
 ATtinyX5.build.core=arduino:arduino
 ATtinyX5.build.board=attiny
-ATtinyX5.upload.tool=arduino:avrdude
 
 ATtinyX5.menu.cpu.attiny25=ATtiny25
 ATtinyX5.menu.cpu.attiny25.upload.maximum_size=2048
@@ -64,6 +64,18 @@ ATtinyX5.menu.clock.external20.bootloader.low_fuses=0xfe
 ATtinyX5.menu.clock.external20.bootloader.high_fuses=0xdf
 ATtinyX5.menu.clock.external20.bootloader.extended_fuses=0xff
 ATtinyX5.menu.clock.external20.build.f_cpu=20000000L
+
+ATtinyX5.menu.uploader.avrdude=AVRdude
+ATtinyX5.menu.uploader.avrdude.upload.tool=arduino:avrdude
+
+ATtinyX5.menu.uploader.micronucleus=Micronucleus
+ATtinyX5.menu.uploader.micronucleus.upload.using=micronucleusprog
+ATtinyX5.menu.uploader.micronucleus.upload.protocol=usb
+ATtinyX5.menu.uploader.micronucleus.upload.tool=micronucleus
+ATtinyX5.menu.uploader.micronucleus.upload.maximum_size=6012
+ATtinyX5.menu.uploader.micronucleus.upload.wait_for_upload_port = false
+ATtinyX5.menu.uploader.micronucleus.upload.use_1200bps_touch = false
+ATtinyX5.menu.uploader.micronucleus.upload.disable_flushing = false
 
 ################################################################################
 

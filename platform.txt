@@ -9,3 +9,14 @@ tools.avrdude.bootloader.params.verbose=-v -v -v -v
 tools.avrdude.bootloader.params.quiet=-q -q
 tools.avrdude.bootloader.pattern="{cmd.path}" "-C{config.path}" {bootloader.verbose} -p{build.mcu} -c{protocol} {program.extra_params}
 
+tools.micronucleus.cmd.path={runtime.tools.micronucleus.path}/launcher
+
+tools.micronucleus.upload.params.verbose=
+tools.micronucleus.upload.params.quiet=
+tools.micronucleus.upload.pattern="{cmd.path}" -cdigispark --timeout 60 -Uflash:w:{build.path}/{build.project_name}.hex:i
+ 
+# USB Default Flags
+# Default blank usb manufacturer will be filled it at compile time
+# - from numeric vendor ID, set to Unknown otherwise
+build.usb_manufacturer=
+build.usb_flags=
