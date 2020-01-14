@@ -1,4 +1,5 @@
 name=ATtiny Microcontrollers
+version=1.1.0
 
 tools.avrdude.path={runtime.tools.avrdude.path}
 tools.avrdude.erase.params.verbose=-v -v -v -v
@@ -9,11 +10,11 @@ tools.avrdude.bootloader.params.verbose=-v -v -v -v
 tools.avrdude.bootloader.params.quiet=-q -q
 tools.avrdude.bootloader.pattern="{cmd.path}" "-C{config.path}" {bootloader.verbose} -p{build.mcu} -c{protocol} {program.extra_params}
 
-tools.micronucleus.cmd.path={runtime.tools.micronucleus.path}/launcher
-
+tools.micronucleus.path={runtime.tools.micronucleus.path}
+tools.micronucleus.cmd.path={path}/micronucleus
 tools.micronucleus.upload.params.verbose=
 tools.micronucleus.upload.params.quiet=
-tools.micronucleus.upload.pattern="{cmd.path}" -cdigispark --timeout 60 -Uflash:w:{build.path}/{build.project_name}.hex:i
+tools.micronucleus.upload.pattern="{cmd.path}" --timeout 60 --run {build.path}/{build.project_name}.hex
  
 # USB Default Flags
 # Default blank usb manufacturer will be filled it at compile time

@@ -69,10 +69,9 @@ ATtinyX5.menu.uploader.avrdude=AVRdude
 ATtinyX5.menu.uploader.avrdude.upload.tool=arduino:avrdude
 
 ATtinyX5.menu.uploader.micronucleus=Micronucleus
-ATtinyX5.menu.uploader.micronucleus.upload.using=micronucleusprog
-ATtinyX5.menu.uploader.micronucleus.upload.protocol=usb
 ATtinyX5.menu.uploader.micronucleus.upload.tool=micronucleus
-ATtinyX5.menu.uploader.micronucleus.upload.maximum_size=6012
+ATtinyX5.menu.uploader.micronucleus.upload.protocol=usb
+ATtinyX5.menu.uploader.micronucleus.upload.maximum_size=6522
 ATtinyX5.menu.uploader.micronucleus.upload.wait_for_upload_port = false
 ATtinyX5.menu.uploader.micronucleus.upload.use_1200bps_touch = false
 ATtinyX5.menu.uploader.micronucleus.upload.disable_flushing = false
