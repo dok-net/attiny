@@ -1,8 +1,8 @@
 {
   "packages": [
     {
-      "name": "attiny",
-      "maintainer": "ATtiny Community",
+      "name": "dok-net",
+      "maintainer": "dok-net",
       "websiteURL": "https://github.com/dok-net/attiny",
       "email": "",
       "help": {
@@ -13,14 +13,14 @@
           "name": "attiny",
           "architecture": "avr",
           "version": "1.1.0",
-          "category": "attiny",
+          "category": "dok-net",
           "help": {
             "online": ""
           },
           "url": "https://github.com/dok-net/attiny/raw/master/bin/attiny-1.1.0.zip",
           "archiveFileName": "attiny-1.1.0.zip",
-          "checksum": "SHA-256:BF6F663FB5A0B9F8BFE2C0313023942997B713FA53D896191902282C49F016DC",
-          "size": "5138",
+          "checksum": "SHA-256:FCDBB022EEBCCB0BCFD3E7C4597AACBEBA8551EA60EE01B07D8C35578EF3E13E",
+          "size": "5140",
           "boards": [
             {"name": "ATtiny25"},
             {"name": "ATtiny45"},
@@ -43,6 +43,13 @@
          "name": "micronucleus",
          "version": "2.04",
          "systems": [
+           {
+             "host": "x86_64-mingw32",
+             "url": "https://github.com/dok-net/attiny/raw/master/bin/micronucleus-2.04-i686-mingw32.zip",
+             "archiveFileName": "micronucleus-2.04-i686-mingw32.zip",
+             "checksum": "SHA-256:45CD0BD670195610DFF97C0AFB87C7981C70DFD45A33A39657A420F30E31CC64",
+             "size": "13836"
+           },
            {
              "host": "i686-mingw32",
              "url": "https://github.com/dok-net/attiny/raw/master/bin/micronucleus-2.04-i686-mingw32.zip",

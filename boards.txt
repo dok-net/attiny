@@ -10,6 +10,7 @@ ATtinyX5.bootloader.unlock_bits=0xff
 ATtinyX5.bootloader.lock_bits=0xff
 ATtinyX5.build.core=arduino:arduino
 ATtinyX5.build.board=attiny
+ATtinyX5.upload.tool=arduino:avrdude
 
 ATtinyX5.menu.cpu.attiny25=ATtiny25
 ATtinyX5.menu.cpu.attiny25.upload.maximum_size=2048
