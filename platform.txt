@@ -15,9 +15,3 @@ tools.micronucleus.cmd.path={path}/micronucleus
 tools.micronucleus.upload.params.verbose=
 tools.micronucleus.upload.params.quiet=
 tools.micronucleus.upload.pattern="{cmd.path}" --timeout 60 --run {build.path}/{build.project_name}.hex
- 
-# USB Default Flags
-# Default blank usb manufacturer will be filled it at compile time
-# - from numeric vendor ID, set to Unknown otherwise
-build.usb_manufacturer=
-build.usb_flags=

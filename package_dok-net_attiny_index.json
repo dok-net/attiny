@@ -19,8 +19,8 @@
           },
           "url": "https://github.com/dok-net/attiny/raw/master/bin/dok-net-attiny-1.1.0.zip",
           "archiveFileName": "dok-net-attiny-1.1.0.zip",
-          "checksum": "SHA-256:FCDBB022EEBCCB0BCFD3E7C4597AACBEBA8551EA60EE01B07D8C35578EF3E13E",
-          "size": "5140",
+          "checksum": "SHA-256:4FE836D12940A8245CC6B2DA0608974E65907A2F5B8E80B7688158B1E851EB0A",
+          "size": "5029",
           "boards": [
             {"name": "ATtiny25"},
             {"name": "ATtiny45"},
