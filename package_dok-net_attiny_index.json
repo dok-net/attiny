@@ -17,7 +17,7 @@
           "help": {
             "online": ""
           },
-          "url": "https://github.com/dok-net/attiny/raw/master/bin/dok-net-attiny-1.1.0.zip",
+          "url": "https://github.com/dok-net/attiny/raw/1.1.0/bin/dok-net-attiny-1.1.0.zip",
           "archiveFileName": "dok-net-attiny-1.1.0.zip",
           "checksum": "SHA-256:4FE836D12940A8245CC6B2DA0608974E65907A2F5B8E80B7688158B1E851EB0A",
           "size": "5029",
@@ -45,7 +45,7 @@
          "systems": [
            {
              "host": "i686-mingw32",
-             "url": "https://github.com/dok-net/attiny/raw/master/bin/micronucleus-2.04-i686-mingw32.zip",
+             "url": "https://github.com/dok-net/attiny/raw/1.1.0/bin/micronucleus-2.04-i686-mingw32.zip",
              "archiveFileName": "micronucleus-2.04-i686-mingw32.zip",
              "checksum": "SHA-256:45CD0BD670195610DFF97C0AFB87C7981C70DFD45A33A39657A420F30E31CC64",
              "size": "13836"
