@@ -28,7 +28,7 @@ Also check out this video from Make which explains how to setup and use this cor
 The above installation instructions mostly apply as well, but you have to use this URL for the Arduino IDE's
 additional boards manager URL instead:
 
-(https://github.com/dok-net/attiny/raw/1.1.1/package_dok-net_attiny_index.json)
+(https://github.com/dok-net/attiny/raw/master/package_dok-net_attiny_index.json)
 
 Next, from the 2.04 release of the [micronucleus project](https://github.com/micronucleus/micronucleus/tree/2.04),
 download the ZIP archive of the micronucleus release to your local workstation, uncompress it and open the
